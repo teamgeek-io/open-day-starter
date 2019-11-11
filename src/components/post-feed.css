@@ -1,0 +1,39 @@
+.PostFeed {
+  display: grid;
+  justify-content: space-between;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 980px) {
+  .PostFeed {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .PostFeed {
+    grid-template-columns: 1fr;
+  }
+}
+
+.PreviewImage {
+  height: 200px;
+}
+
+.Post {
+  text-decoration: none;
+}
+
+.Post h2 {
+  color: darkslategrey;
+  margin-bottom: 5px;
+  margin-top: 16px;
+  font-size: 18pt;
+}
+
+.Post p {
+  color: gray;
+}

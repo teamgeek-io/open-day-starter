@@ -1,0 +1,67 @@
+.Header {
+  background-color: darkslategray;
+}
+
+.HeaderContent {
+  margin: 0 auto;
+  max-width: 1120px;
+  padding: 0 4vw;
+  position: relative;
+  z-index: 1;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.HeaderContentFull {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+
+.SiteHeading {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.SiteHeading a {
+  color: white;
+  text-decoration: none;
+}
+
+.SiteSubHeading {
+  text-align: center;
+  font-size: 12pt;
+  opacity: 0.7;
+  color: white;
+}
+
+.Logo {
+  position: absolute;
+  top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.Logo svg {
+  width: 60px;
+}
+
+.SocialLinks {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.SocialIcon {
+  width: 24px;
+  fill: white;
+  margin-right: 10px;
+}
+
+.HeaderImage {
+  position: absolute !important;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}

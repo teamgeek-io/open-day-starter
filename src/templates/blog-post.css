@@ -1,0 +1,19 @@
+.Article {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 40px 4vw;
+}
+
+.ArticleContent {
+  max-width: 720px;
+  margin: 20px auto;
+}
+
+.BlogTitle {
+  margin-bottom: 5px;
+}
+
+.BlogSubtitle {
+  font-size: 12pt;
+  color: gray;
+}
